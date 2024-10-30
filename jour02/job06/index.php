@@ -14,7 +14,7 @@
     transition: background-color 0.5s ease, color 0.5s ease; /* Transition pour le changement de style */
 }
 
-/* Styles pour La Plateforme_ */
+
 body.konami {
     background-color: #ff0052; /* Couleur de fond */
     color:#1cfff2; /* Couleur du texte */
@@ -27,7 +27,6 @@ h1, p {
 
     <script>
 
-        // Séquence du code Konami
 const konamiCode = [
     'ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown',
     'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight',
@@ -57,7 +56,7 @@ document.addEventListener('keydown', function(event) {
     </script>
 </head>
 <body>
-<div class="content">
+    <div class="content">
         <h1>Bienvenue sur notre page !</h1>
         <p>Appuyez sur les touches du code Konami pour changer le style.</p>
     </div>
