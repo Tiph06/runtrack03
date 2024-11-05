@@ -1,4 +1,5 @@
 function citation(){
-    let msg = document.getElementById("citation").innerText
+    let msg = document.getElementById("citation").textContent
     console.log(msg)
 }
+

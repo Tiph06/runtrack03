@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="" align="center">
+        <form id="inscripForm">
+            <label for="inscripFirstName">Prénom :</label>
+            <input type="text" placeholder= "Prénom" id="inscripFirstName" name="firstName" required>
+            <span class="error" id="inscripFirstNameError"></span>
+        <label>
+            <input type="text" placeholder="Nom" name="name" required>
+        <br>
+        
+        <label for="registerPostalCode">Code postal: </label>
+        <input type="text" placeholder="Code postal" id="registerPostalCode" name="postalCode" required pattern="\\d{5}">
+        <span class="error" id="registerPostalCodeError"></span>
+        
+        <button type="submit">S'inscrire</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="header">
+    <h1>Jour 05</h1>
+        <a href="inscription.html">Inscription</a>
+        <a href="connexionhtml">Connexion</a>
+</div>
+    <div>
+        <form action="post"></form>
+            <label for="email"></label>
+            <input type="email"  name="email" id="email" placeholder="Email">
+            <label for="mdp"></label>
+            <input type="password" name="mdp" id="mdp" placeholder="Mot de passe">
+    </div>
+</body>
+</html>
